@@ -1,0 +1,42 @@
+
+a{
+    text-decoration: none;
+    color: goldenrod;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+
+h1{
+    color: #fff;
+}
+
+iframe{
+    margin: 10px;
+}
+
+.section {
+    text-align:center;
+    /* min-height: 100vh; */
+    /* font-size: 3em; */
+}
+
+.text{
+    font-size: 1.5rem;
+    padding: 1% 8%;
+    color: #fff;
+}
+
+.youtubeWrapper{
+    /* padding: 30px; */
+    display: flex;
+    flex-flow: row wrap;
+    /* align-items: ; */
+    align-content: space-between;
+    justify-content: space-evenly;
+}
