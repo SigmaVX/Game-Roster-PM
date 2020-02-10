@@ -11,26 +11,29 @@
 </head>
 <body>
     <div id="fullpage">
-        <div class="section">
-            <img src="./gr.jpg" alt="game-roster-logo">
-            <h1>Thank You</h1>
-            <p class="text">
-                Game Roster helped over 50,000 users organize games and create communities between 2015 and 2020.  We are a small group of passionate gamers that built the platform from the ground up without outside funds.  While we are no longer in operation we are happy to have helped so many and wish all our communities the best as they live on with other platforms.  Anyone looking to reach us can do so through our Twitter (<a href="https://twitter.com/gameroster?lang=en" target="_blank">@GameRoster</a>) or email (<a href="mailto:admin@gameroster.com">admin@gameroster.com</a>)
-            </p>
+        <div class="section one">
+            <div class="textBox">
+                <img class="landingImg" src="./name.png" alt="game roster name">
+                <!-- <h1 class="pageHeader">Game Roster</h1> -->
+                <p class="text">
+                    Game Roster helped over 50,000 users organize games and create communities between 2015 and 2020.  We are a small group of passionate gamers that built the platform from the ground up without outside funds.  While we are no longer in operation we are happy to have helped so many and wish all our communities the best as they live on with other platforms.  Anyone looking to reach us can do so through our Twitter (<a href="https://twitter.com/gameroster?lang=en" target="_blank">@GameRoster</a>) or email (<a href="mailto:admin@gameroster.com">admin@gameroster.com</a>)
+                </p>
+            </div>
         </div>
-        <div class="section">
-            <h2>Features</h2>
+        <div class="section blackText">
+            <h2>What Is Game Roster?</h2>
             <div class="youtubeWrapper">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/6Zcib-ZT2qk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe playsinline="0" modestbranding="1" loop="1" width="560" height="315" src="https://www.youtube.com/embed/6Zcib-ZT2qk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+        <div class="section whiteText">
+            <h2>How Does Game Roster Help?</h2>
+            <div class="youtubeWrapper">
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/8AIMskRMxOM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
         </div>
-        <div class="section">
-            <h2>More Features</h2>
-            <div class="youtubeWrapper">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/6Zcib-ZT2qk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/8AIMskRMxOM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
+        <div class="section blackText">
+            <img class="footerImg" src="./blackLogo.png" alt="game-roster-logo">
         </div>
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
@@ -38,10 +41,14 @@
     <script>
         new fullpage('#fullpage', {
             licenseKey: 'YOUR KEY HERE',
-            sectionsColor: ['#232323', 'goldenrod', "#5e43d9"],
+            sectionsColor: ['#232323', 'goldenrod', "#5e43d9", "#ffffff"],
             scrollHorizontally: true,
-            // navigation: true,
-            // navigationPosition: 'right',
+            navigation: true,
+            navigationPosition: 'bottom',
+            verticalCentered: true,
+            scrollingSpeed: 700,
+            lockAnchors: true,
+            // continuousVertical: true,
         });
         // fullpage_api.setAllowScrolling(false);
     </script>
