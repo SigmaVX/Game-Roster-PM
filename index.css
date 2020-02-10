@@ -12,8 +12,14 @@ body{
     text-align: center;
 }
 
+h2{
+    font-family: 'Nunito', sans-serif;
+    font-size: 2rem;
+}
+
 iframe{
     margin: 10px;
+    border-radius: 20px !important;
 }
 
 
